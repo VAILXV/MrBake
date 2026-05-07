@@ -4,7 +4,7 @@
 
 -- Alt leave timer (minutes). Allowed values: 2..10 (2, 3, 4, 5, 6, 7, 8, 9, 10)
 -- This controls how long the ALT stays in a game before returning to Lobby.
-local ALT_LEAVE_TIMER = 3 -- minutes
+local ALT_LEAVE_TIMER = 2 -- minutes
 
 -- Derived duration in seconds used by the in-game loop for the ALT
 local GAME_DURATION = ALT_LEAVE_TIMER * 60
@@ -184,7 +184,7 @@ do
     end
 end
 
-local QUEUE_TIMEOUT = 30
+local QUEUE_TIMEOUT = 17
 local QUEUE_DELAY = 3
 
 -- Backwards compat alias (older code paths use this name); now driven by CONFIG.MODE
