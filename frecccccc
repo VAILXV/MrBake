@@ -88,7 +88,7 @@ local CONFIG = {
 
     -- HUD / Debug
     GUI = {
-        SHOW_DETAILS = false; -- show mode + ping under the timer
+        SHOW_DETAILS = true; -- show mode + ping under the timer
     };
     DEBUG = {
         sync = false;
