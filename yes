@@ -55,7 +55,7 @@ local MAIN_ACCOUNT_DATA = {
 
 local ALT_ACCOUNT_DATA = {
     BUILD_SLOT = 1;
-    USER_NAME = `Blasted_vipefish139`;
+    USER_NAME = `sIimeysI`;
 }
 
 -- Centralized behavior config so you only edit here
