@@ -33,7 +33,7 @@ local MULTI_MODE_PRESETS = {
     [1] = { first = 'DEFENDING', second = 'SHOOTING2' };
     [2] = { first = 'DEFENDING', second = 'FINISHING' };
     [3] = { first = 'PLAYMAKING', second = 'FINISHING' };
-    [4] = { first = 'PLAYMAKING', second = 'SHOOTING2' };
+    [4] = { first = 'PLAYMAKING', second = 'SHOOTING3' };
     [5] = { first = 'FINISHING', second = 'SHOOTING2', completions = 5 }; -- FINISHING reps (no timer) then switch
 }
 
